@@ -13,3 +13,8 @@
 ### 判断不是继承而来
     modle.hasOwnProperty('name')   true 
     modle.hasOwnProperty('toString')  false
+    
+## js 对 0 , undefine , null ,NAN  默认都是false  。其他默认 ture 
+     var aa = 'abcd';
+     if (aa.length) {
+     }
