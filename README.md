@@ -18,3 +18,8 @@
      var aa = 'abcd';
      if (aa.length) {
      }
+
+## 高阶函数-filter 
+      var arr = [1,2,4,5,7,9];
+      arr.filter(function (x) {return x%2 !== 0})
+      [1, 3, 5, 7, 9]
