@@ -23,3 +23,9 @@
       var arr = [1,2,4,5,7,9];
       arr.filter(function (x) {return x%2 !== 0})
       [1, 3, 5, 7, 9]
+
+## 把array 中字符串删除，这样写：
+     var arr = ['A', undefined, 'B', null , '', 'c'];
+     arr.filter(function (s){ return s && s.trim()});
+     ["A", "B", "c"]
+  
