@@ -28,4 +28,6 @@
      var arr = ['A', undefined, 'B', null , '', 'c'];
      arr.filter(function (s){ return s && s.trim()});
      ["A", "B", "c"]
-  
+     
+## sort高洁函数排序
+   
